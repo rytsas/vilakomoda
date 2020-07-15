@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/ABasketballTrainer">
+
+    <fragment
+        android:id="@+id/ABasketballTrainer"
+        android:name="com.example.basketballtrainer.fragments.ABasketballTrainer"
+        android:label="ABasketballTrainer"
+        tools:layout="@layout/fragment_a_basketball_trainer">
+        <action
+            android:id="@+id/action_ABasketballTrainer_to_BPhysicall2"
+            app:destination="@id/BPhysicall" />
+        <action
+            android:id="@+id/action_ABasketballTrainer_to_CPassing2"
+            app:destination="@id/CPassing2" />
+        <action
+            android:id="@+id/action_ABasketballTrainer_to_EShooting2"
+            app:destination="@id/EShooting2" />
+        <action
+            android:id="@+id/action_ABasketballTrainer_to_DDribling"
+            app:destination="@id/DDribling" />
+    </fragment>
+    <fragment
+        android:id="@+id/BPhysicall"
+        android:name="com.example.basketballtrainer.fragments.BPhysicall"
+        android:label="BPhysicall"
+        tools:layout="@layout/fragment_b_physical" >
+        <action
+            android:id="@+id/action_BPhysicall_to_BASpeedAndAgility"
+            app:destination="@id/BASpeedAndAgility" />
+        <action
+            android:id="@+id/action_BPhysicall_to_BASummer"
+            app:destination="@id/BASummer" />
+        <action
+            android:id="@+id/action_BPhysicall_to_BAWormUp"
+            app:destination="@id/BAWormUp" />
+        <action
+            android:id="@+id/action_BPhysicall_to_BAStreightAndpower"
+            app:destination="@id/BAStreightAndpower" />
+        <action
+            android:id="@+id/action_BPhysicall_to_BAPlyometrics"
+            app:destination="@id/BAPlyometrics" />
+        <action
+            android:id="@+id/action_BPhysicall_to_BAInjury"
+            app:destination="@id/BAInjury" />
+        <action
+            android:id="@+id/action_BPhysicall_to_BAFlexibility"
+            app:destination="@id/BAFlexibility" />
+        <action
+            android:id="@+id/action_BPhysicall_to_BAConditioning"
+            app:destination="@id/BAConditioning" />
+    </fragment>
+    <fragment
+        android:id="@+id/CPassing2"
+        android:name="com.example.basketballtrainer.fragments.CPassing"
+        android:label="CPassing" />
+    <fragment
+        android:id="@+id/EShooting2"
+        android:name="com.example.basketballtrainer.fragments.EShooting"
+        android:label="EShooting" >
+        <action
+            android:id="@+id/action_EShooting2_to_EAJumpShooting"
+            app:destination="@id/EAJumpShooting" />
+        <action
+            android:id="@+id/action_EShooting2_to_ECTrey"
+            app:destination="@id/ECTrey" />
+        <action
+            android:id="@+id/action_EShooting2_to_EDHook"
+            app:destination="@id/EDHook" />
+        <action
+            android:id="@+id/action_EShooting2_to_EEPivot"
+            app:destination="@id/EEPivot" />
+        <action
+            android:id="@+id/action_EShooting2_to_EBFadeAway"
+            app:destination="@id/EBFadeAway" />
+    </fragment>
+    <fragment
+        android:id="@+id/BASpeedAndAgility"
+        android:name="com.example.basketballtrainer.physical_training.BASpeedAndAgility"
+        android:label="BASpeedAndAgility" />
+    <fragment
+        android:id="@+id/BASummer"
+        android:name="com.example.basketballtrainer.physical_training.BASummer"
+        android:label="BASummer" >
+        <action
+            android:id="@+id/action_BASummer_to_book1"
+            app:destination="@id/book1" />
+    </fragment>
+    <fragment
+        android:id="@+id/DDribling"
+        android:name="com.example.basketballtrainer.fragments.DDribling"
+        android:label="DDribling" />
+    <fragment
+        android:id="@+id/EAJumpShooting"
+        android:name="com.example.basketballtrainer.fragments.shoting.EAJumpShooting"
+        android:label="EAJumpShooting" />
+    <fragment
+        android:id="@+id/EBFadeAway"
+        android:name="com.example.basketballtrainer.fragments.shoting.EBFadeAway"
+        android:label="EBFadeAway" />
+    <fragment
+        android:id="@+id/ECTrey"
+        android:name="com.example.basketballtrainer.fragments.shoting.ECTrey"
+        android:label="ECTrey" />
+    <fragment
+        android:id="@+id/EDHook"
+        android:name="com.example.basketballtrainer.fragments.shoting.EDHook"
+        android:label="EDHook" />
+    <fragment
+        android:id="@+id/EEPivot"
+        android:name="com.example.basketballtrainer.fragments.shoting.EEPivot"
+        android:label="EEPivot" />
+    <fragment
+        android:id="@+id/BAWormUp"
+        android:name="com.example.basketballtrainer.physical_training.BAWormUp"
+        android:label="BAWormUp" />
+    <fragment
+        android:id="@+id/BAConditioning"
+        android:name="com.example.basketballtrainer.physical_training.BAConditioning"
+        android:label="BAConditioning" />
+    <fragment
+        android:id="@+id/BAFlexibility"
+        android:name="com.example.basketballtrainer.physical_training.BAFlexibility"
+        android:label="BAFlexibility" />
+    <fragment
+        android:id="@+id/BAInjury"
+        android:name="com.example.basketballtrainer.physical_training.BAInjury"
+        android:label="BAInjury" />
+    <fragment
+        android:id="@+id/BAPlyometrics"
+        android:name="com.example.basketballtrainer.physical_training.BAPlyometrics"
+        android:label="BAPlyometrics" />
+    <fragment
+        android:id="@+id/BAStreightAndpower"
+        android:name="com.example.basketballtrainer.physical_training.BAStreightAndpower"
+        android:label="BAStreightAndpower" />
+    <fragment
+        android:id="@+id/book1"
+        android:name="com.example.basketballtrainer.pdf.Book1"
+        android:label="Book1" />
+</navigation>

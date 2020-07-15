@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BasketballTrainer</string>
+    <string name="physical_training">Physical Training</string>
+    <string name="passing">passing</string>
+    <string name="dribbling">dribbling</string>
+    <string name="shooting">shooting</string>
+    <string name="speed">speed and agility </string>
+    <string name="wormup">warm up</string>
+    <string name="summer">summer physical preparation</string>
+    <string name="winter">physical preparation during the season</string>
+    <string name="JumpShot">Jump Shot</string>
+    <string name="fadeaway">fadeaway</string>
+    <string name="trey">trey</string>
+    <string name="hook">hook</string>
+    <string name="pivot">pivot</string>
+    <string name="streight">streight and power</string>
+    <string name="conditioning">conditioning</string>
+    <string name="injury">injury prevention</string>
+    <string name="plyometrics">plyometrics</string>
+    <string name="flexibility">flexibility</string>
+    <string name="conditiontext">Anyone who is out of shape will be exposed very quickly so its important to condition your body by increasing your cardio vascular endurance by practicing running and other exercises that will consistently expend your energy. Without proper conditioning, the very worst of players will look like lebron against you.</string>
+    <string name="pdf1">Basketball 2 month trainer</string>
+    <string name="book1">8 weeks program</string>
+    <string name="Wormup">The warm-up should gently prepare the body for exercises by gradually increasing the heart rate and circulation; this will loosen the joints and increase blood flow to the muscles. Stretching the muscles prepares them for physical activity and prevents injuries. The warm-up is also a good opportunity for an individual to prepare themselves mentally for the game ahead and for a team to work together prior to the start of the game. Warm-ups can also be used to practice skills and team drills.</string>
+    <string name="fexible">Flexibility ensures that you maintain optimal mobility of all your joints.  This increases the balance between muscles that will ensure efficient movement and force production.  Also, certain muscular restrictions make it hard to maintain body positions that are essential to your performance.  For example, tightness in your lats (your large back muscle) can prevent you from being able to hold or reach your arms straight over your head, and tightness in your calves may result in a player \"fading away\" rather than leaning forward when making a move to the basket.</string>
+    <string name="inur">Basketball is fun for everyone, from young kids to grown-ups. As with any sport, there is a risk of injury when you play basketball. Here are some tips to help you prevent injuries.</string>
+    <string name="ply">Plyometric training involves the usage of jumps, hops, bounds, and/or skips and should not be confused with ballistic training. This form of training is governed by the stretch-shortening cycle, otherwise known as the reversible action of muscles.</string>
+    <string name="spedand">These drills are designed to help improve deceleration capabilities, change in direction and foot work skills required for basketball. Like the speed drills, these agility drills can also be performed on the court. Care should be taken when performing agility ladder drills on a basketball court to ensure the athlete does not slip on the ladder due to the slick floor surface. Refer to NASM’s Performance Enhancement Specialization course - as well as our smaller Speed, Agility and Quickness course, for these and more agility drills for basketball.</string>
+</resources>

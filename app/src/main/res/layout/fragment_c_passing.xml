@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Passing"
+                        android:textSize="40dp"
+                        android:gravity="center"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="120dp"
+                        android:gravity="top"
+                        android:text="@string/conditiontext"
+                        android:textSize="15dp" />
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtube_player_view1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+
+                        app:autoPlay="false"
+                        app:showFullScreenButton="false"
+                        app:videoId="m2sI6P7UQFw">
+
+
+                    </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="How to: Pass a Basketball Better!!! Top 5 Basketball Passing Drills For Beginners
+"
+                        android:textSize="40dp"
+                        android:gravity="center"/>
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtube_player_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+
+                        app:autoPlay="false"
+                        app:showFullScreenButton="false"
+                        app:videoId="Rmw8dYqckBY" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="5 PASSING Drills For Point Guards with Coach Damin Altizer"
+                        android:textSize="40dp"
+                        android:gravity="center"/>
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtube_player_view5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+
+                        app:autoPlay="false"
+                        app:showFullScreenButton="false"
+                        app:videoId="SbOsxamKyzY" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Tips, Skills, and Drills: Passing"
+                        android:textSize="40dp"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

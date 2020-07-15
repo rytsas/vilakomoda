@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Pivot"
+                        android:textSize="40dp"
+                        android:gravity="center"/>
+
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtube_player_view1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120dp"
+
+                        app:autoPlay="false"
+                        app:showFullScreenButton="false"
+                        app:videoId="k46sp18Z2-o">
+
+
+                    </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Basketball Move Series | HIGH POST PIVOT REVERSE |"
+                        android:textSize="40dp"
+                        android:gravity="center"/>
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtube_player_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+
+                        app:autoPlay="false"
+                        app:showFullScreenButton="false"
+                        app:videoId="ho0sNHG1VqU" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="How to: 3 Unstoppable Post Moves For Beginners! DOMINATE THE PAINT"
+                        android:textSize="40dp"
+                        android:gravity="center"/>
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtube_player_view5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+
+                        app:autoPlay="false"
+                        app:showFullScreenButton="false"
+                        app:videoId="8en9w-qOsPA" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="How To: Pivot In Basketball! Great Basketball Drills For Beginners and Advanced Players!"
+                        android:textSize="40dp"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+            </ScrollView>
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>
